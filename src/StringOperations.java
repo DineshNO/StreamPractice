@@ -20,5 +20,6 @@ public class StringOperations {
         List<Character> list = hello.chars().mapToObj(e -> (char)e)
                 .collect(toList());
         System.out.println(list);
+
     }
 }
